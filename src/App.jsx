@@ -4,7 +4,6 @@ import {
   Routes,
   Route,
   //Link,
-  //Switch,
 } from "react-router-dom";
 
 // import des pages
@@ -21,17 +20,19 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Header />
-        <Routes>
-          <Route path="home" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="products/:productsId" element={<Announcement />} />
-          <Route path="*" element={<Error />} />
-        </Routes>
-        <Footer />
-      </Router>
+    <div>
+      <div className="App">
+        <Router>
+          <Header />
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="products/:productId" element={<Announcement />} />
+            <Route path="*" element={<Error />} />
+          </Routes>
+          <Footer />
+        </Router>
+      </div>
     </div>
   );
 }

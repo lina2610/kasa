@@ -1,0 +1,41 @@
+.link {
+  position: absolute;
+  left: 71.6%;
+  right: 18.96%;
+  top: 5.57%;
+  bottom: 91.11%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+  /* or 34px */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+
+  color: #ff6060;
+}
+
+.link_2 {
+  position: absolute;
+  left: 85%;
+  right: 6.94%;
+  top: 5.57%;
+  bottom: 91.11%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+  /* or 34px */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+
+  color: #ff6060;
+}

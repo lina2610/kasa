@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../images/IMG.png"; //a modifier avec le logo
+import logo from "../images/LOGO.png";
+import "../styles/header.css";
 
 const Header = () => {
   return (
@@ -11,7 +12,7 @@ const Header = () => {
       <Link className="link" to="/">
         Accueil
       </Link>
-      <Link className="link" to="/about">
+      <Link className="link_2" to="/about">
         A propos
       </Link>
     </nav>
