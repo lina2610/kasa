@@ -24,12 +24,16 @@ function App() {
       <div className="App">
         <Router>
           <Header />
-          <Routes>
-            <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="products/:productId" element={<Announcement />} />
-            <Route path="*" element={<Error />} />
-          </Routes>
+
+          <main>
+            <Routes>
+              <Route index element={<Home />} />
+              <Route path="about" element={<About />} />
+              <Route path="products/:productId" element={<Announcement />} />
+              <Route path="*" element={<Error />} />
+            </Routes>
+          </main>
+
           <Footer />
         </Router>
       </div>
