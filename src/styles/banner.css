@@ -8,6 +8,7 @@
 
 .banner_photo {
   object-fit: cover;
+  border-radius: 25px;
 }
 
 .banner_text {

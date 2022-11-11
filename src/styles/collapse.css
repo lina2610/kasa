@@ -1,0 +1,36 @@
+.container {
+  width: 60%;
+}
+
+.toggle {
+  width: 1020px;
+  height: 30px;
+  border: unset;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #ff6060;
+}
+
+.content {
+  width: auto;
+  height: 200px;
+  width: 1020px;
+  display: none;
+  background-color: lightgray;
+  margin-top: 0%;
+}
+
+.show {
+  display: flex;
+}
+
+.aboutdrop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collapse {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}

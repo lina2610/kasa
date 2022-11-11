@@ -1,1 +1,23 @@
+.home_appartments {
+  margin-top: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 60%;
+  margin-left: 20%;
+  background: #f7f7f7;
+  border-radius: 15px;
 
+  padding-top: 6%;
+  margin-bottom: 20%;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.home_banner {
+  margin-left: 5%;
+}
