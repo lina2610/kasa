@@ -1,8 +1,6 @@
 .banner {
-  position: absolute;
-  width: 1240px;
-  height: 223px;
-  margin-top: 171px;
+  width: 100%;
+  margin-top: 20%;
   border-radius: 25px;
 }
 
@@ -12,10 +10,9 @@
 }
 
 .banner_text {
-  position: absolute;
   left: 25.9%;
   right: 25.14%;
-  top: 24.32%;
+  margin-top: -15%;
   bottom: 69.04%;
 
   font-family: "Montserrat";
@@ -28,4 +25,10 @@
   display: flex;
   align-items: flex-end;
   color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .banner_text {
+    font-size: 18px;
+  }
 }

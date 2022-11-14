@@ -1,3 +1,12 @@
 .abourdrop {
   display: flex;
 }
+
+.about {
+  width: 100%;
+}
+
+.aboutdrop {
+  width: 100%;
+  margin-top: 10%;
+}

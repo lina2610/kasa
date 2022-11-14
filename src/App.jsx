@@ -5,6 +5,7 @@ import {
   Route,
   //Link,
 } from "react-router-dom";
+import "./styles/App.css";
 
 // import des pages
 

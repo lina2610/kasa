@@ -2,7 +2,7 @@ import React from "react";
 //import { useRef } from "react";
 import { useState } from "react";
 import "../styles/collapse.css";
-import chevron from "../images/Vector.png";
+import arrow from "../images/Vector.png";
 
 const Collapse = ({ content, title }) => {
   const [IsOpen, setIsOpen] = useState(false);
@@ -13,7 +13,7 @@ const Collapse = ({ content, title }) => {
         {IsOpen}
         {title}
 
-        <img className="chevron" src={chevron} alt="" />
+        <img className="arrow" src={arrow} alt="" />
       </button>
       <div className={IsOpen ? "content show" : "content"}> {content}</div>
     </div>
