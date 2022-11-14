@@ -29,7 +29,7 @@ const About = () => {
         <Collapse title="Fiabilité" content={content("fiability")} />
         <Collapse title="Respect" content={content("respect")} />
         <Collapse title="Service" content={content("service")} />
-        <Collapse title="Security" content={content("security")} />
+        <Collapse title="Securité" content={content("security")} />
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import image from "../images/IMG.png";
 function Banner() {
   return (
     <div className="banner">
-      <img src={image} alt=" " />
+      <img className="bannerphoto" src={image} alt=" " />
       <h2 className="banner_text"> Chez vous, partout et ailleurs</h2>
     </div>
   );

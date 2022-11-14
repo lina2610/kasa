@@ -5,7 +5,7 @@ import image from "../images/aboutbackground.png";
 function AboutBanner() {
   return (
     <div className="aboutbannerbackground">
-      <img src={image} alt="" />
+      <img className="aboutphoto" src={image} alt="" />
     </div>
   );
 }

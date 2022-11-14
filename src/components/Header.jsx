@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <nav className="navbar_kasa">
       <Link>
-        <img src={logo} alt="Logo Kasa" className="Logo_kasa" />
+        <img src={logo} alt="Logo Kasa" className="Logo_kasa_header" />
       </Link>
       <Link className="link" to="/">
         Accueil

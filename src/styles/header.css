@@ -1,11 +1,12 @@
-.Logo_kasa {
-  margin-left: 5%;
-  margin-top: 5%;
+.Logo_kasa_header {
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 120px;
 }
 
 .link {
   position: absolute;
-  left: 60%;
+  left: 70%;
   right: 18.96%;
   top: 5.57%;
   bottom: 91.11%;
@@ -26,7 +27,7 @@
 
 .link_2 {
   position: absolute;
-  left: 75%;
+  left: 85%;
   right: 6.94%;
   top: 5.57%;
   bottom: 91.11%;
@@ -51,9 +52,13 @@
 @media screen and (max-width: 768px) {
   .link {
     font-size: 12px;
+
+    margin-left: -10%;
   }
 
   .link_2 {
     font-size: 12px;
+
+    margin-left: -10%;
   }
 }
