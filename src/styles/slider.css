@@ -17,12 +17,32 @@
   height: 50px;
   position: absolute;
   margin-top: -20%;
-  margin-left: 8%;
+  margin-left: 5%;
 }
 
 .next {
   height: 50px;
   position: absolute;
   margin-top: -20%;
-  margin-left: 67%;
+  margin-left: 88%;
+}
+
+@media screen and (max-width: 768px) {
+  .sliderpicture {
+    height: 300px;
+    width: 85%;
+  }
+
+  .slider {
+    width: 90%;
+  }
+
+  .previous {
+    margin-top: -40%;
+  }
+
+  .next {
+    margin-top: -40%;
+    margin-left: 70%;
+  }
 }

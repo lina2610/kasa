@@ -15,7 +15,8 @@
 
 @media screen and (max-width: 768px) {
   .aboutphoto {
-    height: 120px;
-    margin-top: 20%;
+    height: 200px;
+
+    width: 90%;
   }
 }

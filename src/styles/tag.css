@@ -11,5 +11,15 @@
   background: #ff6060;
   color: white;
   font-weight: 600;
-  border-radius: 5px;
+  border-radius: 8px;
+  width: 90%;
+  height: 25px;
+  text-align: center;
+  padding-top: 2%;
+}
+
+@media screen and (max-width: 768px) {
+  .tag {
+    width: 70%;
+  }
 }

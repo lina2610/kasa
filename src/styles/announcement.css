@@ -12,7 +12,8 @@
 .rating {
   width: 50%;
   margin-left: 58%;
-  margin-top: -4%;
+  margin-top: -5%;
+  position: absolute;
 }
 
 .ratestar {
@@ -28,4 +29,29 @@
   margin-top: 25%;
   margin-left: 6%;
   color: #ff6060;
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown {
+    flex-direction: column;
+    margin-top: 15%;
+  }
+
+  .title {
+    font-size: 20px;
+    width: 70%;
+  }
+
+  .flatcontent {
+    margin-top: 35%;
+  }
+
+  .rating {
+    margin-left: 5%;
+    margin-top: -1%;
+  }
+
+  .ratestar {
+    height: 15px;
+  }
 }
