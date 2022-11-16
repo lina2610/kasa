@@ -1,0 +1,28 @@
+.slider {
+  width: 95%;
+  height: 200px;
+  margin-left: 3%;
+  margin-top: 10%;
+}
+
+.sliderpicture {
+  width: 95%;
+  margin-left: 3%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.previous {
+  height: 50px;
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 8%;
+}
+
+.next {
+  height: 50px;
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 67%;
+}

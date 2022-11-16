@@ -5,7 +5,7 @@ import products from "../data/data.json";
 
 import Banner from "../components/Banner.jsx";
 import "../styles/home.css";
-import Card from "../components/card.jsx";
+import Card from "../components/Card.jsx";
 
 const Products = () => {
   return (

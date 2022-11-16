@@ -23,11 +23,12 @@
   text-align: right;
 
   color: #ff6060;
+  width: 80px;
 }
 
 .link_2 {
   position: absolute;
-  left: 85%;
+  left: 80%;
   right: 6.94%;
   top: 5.57%;
   bottom: 91.11%;
@@ -42,13 +43,30 @@
   display: flex;
   align-items: flex-end;
   text-align: right;
-
+  width: 90px;
   color: #ff6060;
 }
 
 .navbar_kasa {
   width: 100%;
 }
+
+.link {
+  text-decoration: none;
+}
+
+.link_2 {
+  text-decoration: none;
+}
+
+.link:hover {
+  border-bottom: 2px solid #ff6060;
+}
+
+.link_2 {
+  border-bottom: 2px solid #ff6060;
+}
+
 @media screen and (max-width: 768px) {
   .link {
     font-size: 12px;

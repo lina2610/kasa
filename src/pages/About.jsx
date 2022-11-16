@@ -1,7 +1,7 @@
 import React from "react";
-import AboutBanner from "/Users/linabenahmed/Desktop/P7BIS/kasa/src/components/aboutbanner.jsx";
+import AboutBanner from "../components/Aboutbanner.jsx";
 import "../styles/about.css";
-import Collapse from "../components/collapse";
+import Collapse from "../components/Collapse.jsx";
 import text from "../data/text.js";
 
 const About = () => {

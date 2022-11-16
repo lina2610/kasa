@@ -9,6 +9,7 @@
   margin-top: -50%;
   text-align: center;
   color: white;
+  text-decoration: none;
 }
 
 .card {
@@ -18,6 +19,7 @@
   height: 350px;
   border-radius: 10px;
   margin-bottom: 20%;
+  text-decoration: none;
 }
 
 .cardimage {

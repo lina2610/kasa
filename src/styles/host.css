@@ -1,0 +1,14 @@
+.host {
+  display: flex;
+  margin-top: -20%;
+  margin-left: 45%;
+}
+
+.hostname {
+  color: #ff6060;
+}
+
+.hostpicture {
+  border-radius: 80%;
+  height: 80px;
+}
