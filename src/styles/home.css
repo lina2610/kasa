@@ -22,6 +22,10 @@
   margin-left: 5%;
 }
 
+.cardlink {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
   .home_appartments {
     width: 80%;
