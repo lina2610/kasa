@@ -18,10 +18,14 @@
 @media screen and (max-width: 768px) {
   .hostpicture {
     height: 60px;
+    margin-left: 50%;
   }
 
   .host {
-    margin-top: -10%;
+    margin-top: -8%;
+  }
+
+  .hostname {
     margin-left: 120%;
   }
 }

@@ -35,6 +35,7 @@
   .dropdown {
     flex-direction: column;
     margin-top: 15%;
+    width: 110%;
   }
 
   .title {

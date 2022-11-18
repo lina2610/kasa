@@ -6,7 +6,7 @@
 
 .link {
   position: absolute;
-  left: 70%;
+  left: 75%;
   right: 18.96%;
   top: 5.57%;
   bottom: 91.11%;
@@ -28,7 +28,7 @@
 
 .link_2 {
   position: absolute;
-  left: 80%;
+  left: 87%;
   right: 6.94%;
   top: 5.57%;
   bottom: 91.11%;
@@ -77,6 +77,8 @@
   .link_2 {
     font-size: 12px;
 
-    margin-left: -10%;
+    margin-left: -7%;
+    margin-top: -10%;
+    height: 20px;
   }
 }

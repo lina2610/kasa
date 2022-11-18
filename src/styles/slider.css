@@ -30,11 +30,11 @@
 @media screen and (max-width: 768px) {
   .sliderpicture {
     height: 300px;
-    width: 85%;
+    width: 95%;
   }
 
   .slider {
-    width: 90%;
+    width: 95%;
   }
 
   .previous {
