@@ -35,6 +35,7 @@ const Announcement = () => {
       </div>
       <div className="dropdown">
         <Collapse title="Description" content={description} />
+
         <Collapse title="Equipement" content={equipments} />
       </div>
     </div>

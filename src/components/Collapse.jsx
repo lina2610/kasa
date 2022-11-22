@@ -15,7 +15,20 @@ const Collapse = ({ content, title }) => {
 
         <img className="arrow" src={arrow} alt="" />
       </button>
-      <div className={IsOpen ? "content show" : "content"}> {content}</div>
+
+      <div className={IsOpen ? "content show" : "content"}>
+        {Array.isArray(content) ? (
+          <ul className="list">
+            {content.map((equipment, index) => (
+              <li key={index} className="">
+                {equipment}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p>{content}</p>
+        )}
+      </div>
     </div>
   );
 };

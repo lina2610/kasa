@@ -14,7 +14,7 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 142.6%;
   /* or 34px */
 
@@ -36,14 +36,14 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 142.6%;
   /* or 34px */
 
   display: flex;
   align-items: flex-end;
   text-align: right;
-  width: 90px;
+  width: 100px;
   color: #ff6060;
 }
 
@@ -71,13 +71,16 @@
   .link {
     font-size: 12px;
 
-    margin-left: -10%;
+    margin-left: -15%;
+    margin-top: -10%;
+    height: 20px;
+    width: 12%;
   }
 
   .link_2 {
     font-size: 12px;
 
-    margin-left: -7%;
+    margin-left: -12%;
     margin-top: -10%;
     height: 20px;
   }

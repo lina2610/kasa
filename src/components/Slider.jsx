@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-
+import pictures from "../data/data.json";
 import leftarrow from "../images/arrowleft.png";
 import rightarrow from "../images/arrowright.png";
 import "../styles/slider.css";
@@ -36,7 +36,13 @@ const Slider = ({ slides }) => {
             }
           >
             {index === current && (
-              <img src={picture} alt="" className="sliderpicture" />
+              <>
+                <img src={picture} alt="" className="sliderpicture" />
+                <span className="slidernumber">
+                  {" "}
+                  {current + 1}/{length}
+                </span>
+              </>
             )}
           </div>
         );

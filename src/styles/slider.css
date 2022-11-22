@@ -27,14 +27,23 @@
   margin-left: 88%;
 }
 
+.slidernumber {
+  float: RIGHT;
+  position: ABSOLUTE;
+  margin-left: -50%;
+  margin-top: 30%;
+  color: WHITE;
+  font-size: 40px;
+}
+
 @media screen and (max-width: 768px) {
   .sliderpicture {
     height: 300px;
-    width: 95%;
+    width: 90%;
   }
 
   .slider {
-    width: 95%;
+    width: 90%;
   }
 
   .previous {
