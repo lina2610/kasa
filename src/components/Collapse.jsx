@@ -5,7 +5,7 @@ import "../styles/collapse.css";
 import arrow from "../images/Vector.png";
 
 const Collapse = ({ content, title }) => {
-  const [IsOpen, setIsOpen] = useState(false);
+  const [IsOpen, setIsOpen] = useState(false); //création d'une variable isOpen associée à la fonction setIsopen
 
   return (
     <div className="collapse">
