@@ -7,12 +7,19 @@ import Collapse from "../components/Collapse.jsx";
 import "../styles/announcement.css";
 import Host from "../components/Host.jsx";
 
+import Error from "../pages/Error";
+
 import Slider from "../components/Slider.jsx";
 
 const Announcement = () => {
   const { productId } = useParams();
+
   const product = products.find((product) => product.id === productId);
-  const { title, location, equipments, host, description, rating, pictures } =
+  if (!product) {
+    return <Error />;
+  }
+
+  const { title, location, equipments, description, rating, pictures } =
     product;
 
   return (
