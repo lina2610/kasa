@@ -11,6 +11,7 @@
   width: 90%;
   height: 250px;
   object-fit: cover;
+  margin-top: -6%;
 }
 
 @media screen and (max-width: 768px) {

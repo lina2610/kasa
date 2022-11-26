@@ -1,9 +1,9 @@
 .home_appartments {
-  margin-top: 20%;
+  margin-top: 8%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 85%;
+  width: 90%;
   margin-left: 5%;
   background: #f7f7f7;
   border-radius: 15px;
@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 768px) {
   .home_appartments {
-    width: 80%;
-    margin-left: 7%;
+    width: 85%;
+    margin-top: 20%;
   }
 }

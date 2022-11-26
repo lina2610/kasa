@@ -41,7 +41,11 @@ const Announcement = () => {
         <Host picture={product.host.picture} name={product.host.name} />
       </div>
       <div className="dropdown">
-        <Collapse title="Description" content={description} />
+        <Collapse
+          title="Description"
+          content={description}
+          className="margincollapse"
+        />
 
         <Collapse title="Equipement" content={equipments} />
       </div>

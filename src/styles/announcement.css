@@ -1,8 +1,7 @@
 .dropdown {
   display: flex;
   justify-content: space-between;
-  margin-left: 6%;
-  width: 60%;
+  width: 90%;
 }
 
 .oneflat {
@@ -29,6 +28,10 @@
   margin-top: 25%;
   margin-left: 6%;
   color: #ff6060;
+}
+
+.margincollapse {
+  margin-left: 24%;
 }
 
 @media screen and (max-width: 768px) {

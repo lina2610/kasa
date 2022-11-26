@@ -2,7 +2,7 @@
   width: 95%;
   height: 200px;
   margin-left: 3%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .sliderpicture {
@@ -39,11 +39,11 @@
 @media screen and (max-width: 768px) {
   .sliderpicture {
     height: 300px;
-    width: 90%;
+    width: 95%;
   }
 
   .slider {
-    width: 90%;
+    width: 95%;
   }
 
   .previous {
@@ -52,6 +52,25 @@
 
   .next {
     margin-top: -40%;
-    margin-left: 70%;
+    margin-left: 80%;
+  }
+
+  .slidernumber {
+    margin-top: 65%;
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .previous {
+    margin-top: -20%;
+  }
+
+  .next {
+    margin-top: -20%;
+  }
+
+  .flatcontent {
+    margin-top: 15%;
   }
 }

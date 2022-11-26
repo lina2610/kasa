@@ -79,9 +79,22 @@
 
   .link_2 {
     font-size: 12px;
+    width: 55px;
 
     margin-left: -12%;
     margin-top: -10%;
     height: 20px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .link {
+    margin-top: -3%;
+    width: 6%;
+  }
+
+  .link_2 {
+    margin-top: -3%;
+    width: 65px;
   }
 }

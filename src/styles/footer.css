@@ -15,11 +15,12 @@
   width: 122px;
   height: 40px;
   margin-top: 2%;
+  margin-left: 30%;
 }
 
 .footertext {
-  margin-left: -20%;
-  text-align: center;
+  margin-left: auto;
+
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -28,9 +29,6 @@
   /* or 34px */
 
   display: flex;
-  align-items: flex-end;
-  text-align: center;
-
   color: #ffffff;
 }
 
@@ -42,5 +40,9 @@
   footer {
     width: 100%;
     margin-top: 70%;
+  }
+
+  .Logo_kasa {
+    margin-left: 20%;
   }
 }
